@@ -3,7 +3,7 @@
 @section("tittle","HERMES")
 
  @section("csslink")
-<link rel="stylesheet" type="text/css" href="{{secure_asset('css/home.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('css/home.css')}}">
 @endsection
 
 
@@ -42,11 +42,11 @@
 
 <div class="arrows">
 <div id="left"  onclick="myFunctionl()" onmouseover="mouseOverl()" onmouseout="mouseOutl()">
- <img src="{{secure_asset('pic/left.png')}}"  >
+ <img src="{{asset('pic/left.png')}}"  >
 </div>
 
 <div id="right"  onclick="myFunctionr()" onmouseover="mouseOverr()" onmouseout="mouseOutr()">
- <img src="{{secure_asset('pic/right.png')}}" >
+ <img src="{{asset('pic/right.png')}}" >
 </div>
 
 </div>
@@ -105,7 +105,7 @@
     <h1 >PRIVACY</h1>
     <p class="lead"><em>
     All your message are secured with an encryption key chosen by you </em></p>
-    <img src="{{secure_asset('pic/secured.gif')}}" height="180px" width="180px">
+    <img src="{{asset('pic/secured.gif')}}" height="180px" width="180px">
 </div>  
   </div>
   
@@ -116,7 +116,7 @@
     <h1 >CREATE ROOM</h1>
     <p class="lead"><em>
     With hermes now you can create rooms and chat with your friends from around the world</em></p>
-    <img src="{{secure_asset('pic/talk.gif')}}" height="300px" width="300px">
+    <img src="{{asset('pic/talk.gif')}}" height="300px" width="300px">
   </div>
 </div>
 
@@ -143,6 +143,6 @@
  @endsection
 
  @section("script")
- <script src="{{secure_asset('bootstrap/js/bootstrap.min.js') }}"></script>
- <script src="{{secure_asset('Javascript/home.js')}}"></script>
+ <script src="{{asset('bootstrap/js/bootstrap.min.js') }}"></script>
+ <script src="{{asset('Javascript/home.js')}}"></script>
 @endsection
