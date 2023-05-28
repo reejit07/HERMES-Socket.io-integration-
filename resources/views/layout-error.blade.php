@@ -2,9 +2,9 @@
 <head>
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>@yield('tittle')</title>
-  <link rel="shortcut icon" type="image" href="{{ secure_asset('pic/hermeslogo.png.png') }}">
-<link rel="stylesheet" type="text/css" href="{{ secure_asset('css/font.css') }}">
-<link href="{{ secure_asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link rel="shortcut icon" type="image" href="{{ asset('pic/hermeslogo.png.png') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/font.css') }}">
+<link href="{{ asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 </head>
 <body style=" background-color: #F3F3F3;">
     

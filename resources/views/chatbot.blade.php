@@ -2,11 +2,11 @@
 <head>
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <meta name="csrf-token" content="{{csrf_token()}}">
-<link rel="shortcut icon" type="image" href="{{ secure_asset('pic/hermeslogo.png.png') }}">
-<link rel="stylesheet" type="text/css" href="{{ secure_asset('css/font.css') }}">
-<link href="{{ secure_asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="{{ secure_asset('css/chatbot.css') }}">
-<script src="{{ secure_asset('Javascript/jquery.js') }}"></script>
+<link rel="shortcut icon" type="image" href="{{ asset('pic/hermeslogo.png.png') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/font.css') }}">
+<link href="{{ asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/chatbot.css') }}">
+<script src="{{ asset('Javascript/jquery.js') }}"></script>
 
 </head>
 
@@ -18,9 +18,9 @@
       <div class="Messenger_messenger">
         <div class="Messenger_header" style="background-color:#3AAFA9; color:white;">
           <h4 class="Messenger_prompt">SARATHI</h4>
-           <img src ="{{ secure_asset('pic/bot.png') }}"  height="50px" width="60px" >
-           <image src="{{secure_asset('pic/hermeslogo.png.png')}}"  id="hermes">
-           <img src="{{ secure_asset('pic/cross1.png') }}" class="divX" height="30px" width="30px" style=" align:right; "></div>
+           <img src ="{{ asset('pic/bot.png') }}"  height="50px" width="60px" >
+           <image src="{{asset('pic/hermeslogo.png.png')}}"  id="hermes">
+           <img src="{{ asset('pic/cross1.png') }}" class="divX" height="30px" width="30px" style=" align:right; "></div>
         <div class="Messenger_content" id="bodybox container">
   <div id="chatborder" class=lead" style="overflow-y: scroll; height:380px;">
   <br>
@@ -35,14 +35,14 @@
           </div>
             <div class="Input Input-blank">
            <input class="Input_field" type="text" name="chat" id="chatbox" placeholder="TYPE A MESSAGE">
-              <img align="right" class="send" src ="{{ secure_asset('pic/so.png') }}" height="40px" width="40px" style="display:inline; z-index:1000;">
+              <img align="right" class="send" src ="{{ asset('pic/so.png') }}" height="40px" width="40px" style="display:inline; z-index:1000;">
           </div>
         </div>
       </div>
     </div>
     <!--===============CHAT ON BUTTON STRART===============-->
                 
-                 <img align="right" src ="{{ secure_asset('pic/bot.png') }}"  class="chat_on" height="50px" width="60px" style="display:inline; ">
+                 <img align="right" src ="{{ asset('pic/bot.png') }}"  class="chat_on" height="50px" width="60px" style="display:inline; ">
     <!--===============CHAT ON BUTTON END===============-->
   </div>
 	</div>
@@ -50,7 +50,7 @@
 
  </div>
  
-<script src="{{ secure_asset('Javascript/chatbot.js') }}"></script>
+<script src="{{ asset('Javascript/chatbot.js') }}"></script>
 
 </body>
 </html>

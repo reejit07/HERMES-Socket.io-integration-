@@ -4,7 +4,7 @@
 @section("tittle","ChangePassword-$username")
 
  @section("csslink")
-<link rel="stylesheet" type="text/css" href="{{ secure_asset('css/checkpassword.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/checkpassword.css') }}">
 @endsection
 
 @section("navbartittle","Change Password")
@@ -69,8 +69,8 @@
 
 
  @section("script")
- <script src="{{ secure_asset('bootstrap/js/bootstrap.min.js') }}"></script>
- <script src="{{ secure_asset('Javascript/formcolor.js') }}"></script>
+ <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
+ <script src="{{ asset('Javascript/formcolor.js') }}"></script>
 
 @endsection
 

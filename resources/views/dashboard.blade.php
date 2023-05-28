@@ -4,7 +4,7 @@
 @section("tittle","Dashboard-$username")
 
  @section("csslink")
-<link rel="stylesheet" type="text/css" href="{{ secure_asset('css/dsb.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/dsb.css') }}">
 
 @endsection
 @section("Navcustomize")
@@ -56,7 +56,7 @@
 
 
  @section("script")
- <script src="{{ secure_asset('bootstrap/js/bootstrap.min.js') }}"></script>
+ <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
 @endsection
 
 

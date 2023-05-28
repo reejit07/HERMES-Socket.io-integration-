@@ -2,7 +2,7 @@
 @section("tittle","HERMES")
 
  @section("csslink")
-<link rel="stylesheet" type="text/css" href="{{ secure_asset('css/login.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/login.css') }}">
 @endsection
 
 @section("errors")
@@ -18,7 +18,7 @@
 @endif
 @endsection
  @section("main")
- <image src="{{ secure_asset('pic/hermeslogo.png.png') }}" style="height:50px; width:50px; padding:5px;">
+ <image src="{{ asset('pic/hermeslogo.png.png') }}" style="height:50px; width:50px; padding:5px;">
 
     <form method="post" action="loginform">
     {{@csrf_field()}} 
@@ -50,5 +50,5 @@
  
  </script>
  @endif
- <script src="{{ secure_asset('bootstrap/js/bootstrap.min.js') }}"></script>
+ <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
 @endsection

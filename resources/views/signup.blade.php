@@ -2,7 +2,7 @@
 @section("tittle","HERMES")
 
  @section("csslink")
-<link rel="stylesheet" type="text/css" href="{{ secure_asset('css/signup.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/signup.css') }}">
 @endsection
 
 @section("errors")
@@ -20,7 +20,7 @@
 
  @section("main")
   
- <image src="{{ secure_asset('pic/hermeslogo.png.png') }}" style="height:50px; width:50px; padding:5px;">
+ <image src="{{ asset('pic/hermeslogo.png.png') }}" style="height:50px; width:50px; padding:5px;">
 
 <h2>SIGN UP</h2>
   <form  method="post" action="signupform">
@@ -66,7 +66,7 @@
  @endsection
 
  @section("script")
-<script src="{{ secure_asset('bootstrap/js/bootstrap.min.js') }}"></script>
-<script src="{{ secure_asset('Javascript/signup.js') }}"></script>
-<script src="{{ secure_asset('Javascript/formcolor.js') }}"></script>
+<script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('Javascript/signup.js') }}"></script>
+<script src="{{ asset('Javascript/formcolor.js') }}"></script>
 @endsection

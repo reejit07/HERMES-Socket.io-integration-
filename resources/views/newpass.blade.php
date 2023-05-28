@@ -2,10 +2,10 @@
 <head>
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Forgot Password</title>
-  <link rel="shortcut icon" type="image" href="{{ secure_asset('pic/hermeslogo.png.png') }}">
-<link rel="stylesheet" type="text/css" href="{{ secure_asset('css/font.css') }}">
-<link href="{{ secure_asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="{{ secure_asset('css/forgot.css') }}">
+  <link rel="shortcut icon" type="image" href="{{ asset('pic/hermeslogo.png.png') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/font.css') }}">
+<link href="{{ asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/forgot.css') }}">
 </head>
 <body>
      
@@ -39,7 +39,7 @@
    
 </div>
 
-<script src="{{ secure_asset('bootstrap/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
 </body>
 </html>
 

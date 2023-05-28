@@ -4,7 +4,7 @@
 @section("tittle","Profile-$USERNAME")
 
  @section("csslink")
-<link rel="stylesheet" type="text/css" href="{{ secure_asset('css/profile.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/profile.css') }}">
 @endsection
 
 @section("navbartittle","Profile")
@@ -82,7 +82,7 @@
 
 
  @section("script")
- <script src="{{ secure_asset('bootstrap/js/bootstrap.min.js') }}"></script>
+ <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
 
 
 @endsection

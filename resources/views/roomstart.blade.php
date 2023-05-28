@@ -4,7 +4,7 @@
 @section("tittle","Room-$username")
 
  @section("csslink")
-<link rel="stylesheet" type="text/css" href="{{ secure_asset('css/roomstart.css') }}">
+<link rel="stylesheet" type="text/css" href="{{asset('css/roomstart.css') }}">
 @endsection
 
 
@@ -26,7 +26,7 @@
 
 
        @section("main")
-       <image src="{{ secure_asset('pic/hermeslogo.png.png') }}" style="height:50px; width:50px; padding:5px;">
+       <image src="{{asset('pic/hermeslogo.png.png') }}" style="height:50px; width:50px; padding:5px;">
             <h3 >CHATROOM</h3>
             <form method="post" action="roomcheck" id="roomd"> 
             {{@csrf_field()}} 
@@ -57,8 +57,8 @@
 
 
  @section("script")
- <script src="{{ secure_asset('bootstrap/js/bootstrap.min.js') }}"></script>
- <script src="{{ secure_asset('Javascript/formcolor.js') }}"></script>
+ <script src="{{asset('bootstrap/js/bootstrap.min.js') }}"></script>
+ <script src="{{asset('Javascript/formcolor.js') }}"></script>
  
 @endsection
 

@@ -4,7 +4,7 @@
  @section("csslink")
 
    <meta name="csrf-token" content="{{csrf_token()}}">
-<link rel="stylesheet" type="text/css" href="{{ secure_asset('css/room.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/room.css') }}">
 @endsection
 <!--navbar-->
 
@@ -15,7 +15,7 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                <img id="main" src ="{{ secure_asset('pic/user.png') }}" align="right" style=" height:30px; width:30px; display:inline; position:absolute; left:150px; top:15px; z-index:100;">
+                <img id="main" src ="{{ asset('pic/user.png') }}" align="right" style=" height:30px; width:30px; display:inline; position:absolute; left:150px; top:15px; z-index:100;">
               
                 <a class="sidelinks">CHATROOM </a>
 
@@ -62,7 +62,7 @@
                  <div>
                 </div>
                  <div>
-                 <image src="{{ secure_asset('pic/hermeslogo.png.png') }}" style="display:inline; height:40px; width:40px;" id="hermes"> 
+                 <image src="{{ asset('pic/hermeslogo.png.png') }}" style="display:inline; height:40px; width:40px;" id="hermes"> 
                 <span class="x">ermes</span>
                 </div>
                  
@@ -89,8 +89,8 @@
                         </div>
                     </div>
                     <div class="publisher bt-1 border-light n"> <input class="publisher-input" type="text" placeholder="Type your message.." id="message"> 
-                      <image id="down" src="{{ secure_asset('pic/down-arrow.png') }}" width="30px" height="35px" align="right">
-                      <img src="{{ secure_asset('pic/go.png') }}" style="display:inline; height:30px; width:35px;" id="send" name="send" >
+                      <image id="down" src="{{ asset('pic/down-arrow.png') }}" width="30px" height="35px" align="right">
+                      <img src="{{ asset('pic/go.png') }}" style="display:inline; height:30px; width:35px;" id="send" name="send" >
                     </div>
                     
                 
@@ -115,7 +115,7 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
  <script src='https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js' integrity='sha512-RdSPYh1WA6BF0RhpisYJVYkOyTzK4HwofJ3Q7ivt/jkpW6Vc8AurL1R+4AUcvn9IwEKAPm/fk7qFZW3OuiUDeg==' crossorigin='anonymous' referrerpolicy='no-referrer'></script>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
- <script src="{{ secure_asset('bootstrap/js/bootstrap.min.js') }}"></script>
+ <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="https://cdn.socket.io/4.0.1/socket.io.min.js" integrity="sha384-LzhRnpGmQP+lOvWruF/lgkcqD+WDVt9fU3H4BWmwP5u5LTmkUGafMcpZKNObVMLU" crossorigin="anonymous"></script>
 <script>
