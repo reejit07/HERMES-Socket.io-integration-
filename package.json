@@ -8,8 +8,8 @@
         "hot": "mix watch --hot",
         "prod": "npm run production",
         "production": "mix --production",
-        "start":"node server.js",
-        "serve":"php artisan serve",
+        "start": "node server.js",
+        "serve": "php artisan serve",
         "all": "npm-run-all --parallel start serve"
     },
     "devDependencies": {
@@ -22,6 +22,7 @@
         "@socket.io/admin-ui": "^0.5.1",
         "crypto-js": "^4.1.1",
         "express": "^4.18.2",
+        "npm-run-all": "^4.1.5",
         "socket.io": "^4.6.1",
         "socket.io-client": "^4.6.1"
     }
